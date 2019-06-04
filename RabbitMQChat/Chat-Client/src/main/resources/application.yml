@@ -1,0 +1,18 @@
+spring:
+  application:
+    name:chat-client
+  rabbitmq:
+    host:
+      127.0.0.1
+    port:
+      5672
+    username:
+      guest
+    password:
+      guest
+server:
+  port: 8081
+
+rabbitmq:
+  quene:
+    client1
